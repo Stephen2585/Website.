@@ -1,14 +1,17 @@
 body {
   background-color: WhiteSmoke;
   color: DarkSlateBlue;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   color: red;
+  font-family: Helvetica, Arial;
 }
 
 h2 {
-  color: pink;
+  color: purple;
+  font-family: Courier;
 }
 
 header {
