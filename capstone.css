@@ -1,0 +1,59 @@
+/* Website styles */
+
+/* *{
+  font-size: 100%;
+} */
+
+body {
+  background-color: #c1faff;
+  color: DarkSlateBlue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: red;
+  font-family: Helvetica, Arial;
+  font-size: 36px;
+  font-style: italic;
+}
+
+h2 {
+  color: purple;
+  font-family: Courier;
+  font-weight: 250;
+  font-style: oblique;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+header {
+  color: green;
+  /* background-color: lightblue; */
+}
+
+section {
+  color: red;
+  font-size: 24pt;
+  /* background-color: yellow; */
+}
+
+/*
+Comment blocks
+can span
+multiple lines
+*/
+
+p {
+  color: brown;
+  font-size: 24px;
+}
+
+footer {
+  color: black;
+  font-family: Courier
+}
