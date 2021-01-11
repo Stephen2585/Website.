@@ -23,6 +23,7 @@ header {
 
 section {
   color: red;
+  font-size: 24pt;
   /* background-color: yellow; */
 }
 
@@ -34,9 +35,10 @@ multiple lines
 
 p {
   color: brown;
+  font-size: 24px;
 }
 
 footer {
   color: black;
-  font-family: Courier;
+  font-family: Courier
 }
