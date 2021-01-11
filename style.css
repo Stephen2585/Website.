@@ -13,12 +13,18 @@ body {
 h1 {
   color: red;
   font-family: Helvetica, Arial;
+  font-size: 36px;
 }
 
 h2 {
   color: purple;
   font-family: Courier;
-  /* font-size: 100%; */
+  font-size: 24px;
+}
+
+h3 {
+  color: black
+  font-size: 36px;
 }
 
 header {
