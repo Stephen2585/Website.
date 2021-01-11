@@ -16,6 +16,7 @@ h1 {
   font-family: Helvetica, Arial;
   font-size: 36px;
   font-style: italic;
+  text-align: center;
 }
 
 h2 {
@@ -36,7 +37,8 @@ header {
   /* background-color: lightblue; */
 }
 
-section {
+
+section p {
   color: red;
   font-size: 24pt;
   /* background-color: yellow; */
@@ -51,9 +53,30 @@ multiple lines
 p {
   color: brown;
   font-size: 24px;
+  line-height: 2;
+  text-align: justify;
+  text-decoration: none;
 }
 
 footer {
   color: black;
-  font-family: Courier
+  background-color: aqua;
+  text-decoration:underline
+  /* font-family: Courier */
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: green;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:gray;
 }
