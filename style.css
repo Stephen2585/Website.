@@ -8,22 +8,26 @@ body {
   background-color: #c1faff;
   color: DarkSlateBlue;
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 h1 {
   color: red;
   font-family: Helvetica, Arial;
   font-size: 36px;
+  font style: italic;
 }
 
 h2 {
   color: purple;
   font-family: Courier;
-  font-size: 24px;
+  font-weight: 250;
+  font-style: oblique;
 }
 
 h3 {
   font-size: 18px;
+  font-style: normal;
 }
 
 header {
