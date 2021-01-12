@@ -68,7 +68,7 @@ p {
   line-height: 1; */
   text-align: justify;
   text-decoration: none;
-  border: 10px solid red;
+  border: 10px solid #40e0e0;
   margin: 20px;
   padding: 30px;
 }
@@ -79,7 +79,7 @@ p {
 
 ul, ol {
   margin: 15px, 0;
-  border: 10px dotted red;
+  border: 10px dashed red;
 }
 
 /* Header, section, footer{
