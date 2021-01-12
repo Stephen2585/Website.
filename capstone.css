@@ -8,38 +8,42 @@ body {
   background-color: #c1faff;
   color: DarkSlateBlue;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 h1 {
-  color: red;
-  font-family: Helvetica, Arial;
+  /* color: darkblue; */
+  /* font-family: Helvetica, Arial;
   font-size: 36px;
-  font-style: italic;
+  font-style: italic; */
+  text-align: justify;
 }
 
 h2 {
-  color: purple;
-  font-family: Courier;
+  color: darkblue;
+  /* font-family: Courier;
   font-weight: 250;
-  font-style: oblique;
+  font-style: oblique; */
+  text-align: justify;
 }
 
 h3 {
-  font-size: 18px;
+  color: aqua
+  /* font-size: 18px;
   font-weight: bold;
-  font-style: normal;
+  font-style: normal; */
+  text-align: justify;
 }
 
 header {
-  color: green;
-  /* background-color: lightblue; */
+  color: darkblue;
+  background-color: white;
 }
 
 section {
-  color: red;
-  font-size: 24pt;
-  /* background-color: yellow; */
+  /* color: red; */
+  /* font-size: 24pt; */
+  background-color: white;
 }
 
 /*
@@ -49,11 +53,32 @@ multiple lines
 */
 
 p {
-  color: brown;
+  /* color: black; */
   font-size: 24px;
+  line-height: 1;
+  text-align: justify;
+  text-decoration: none;
 }
 
 footer {
   color: black;
-  font-family: Courier
+  /* font-family: Courier */
+  background-color: white;
+  text-decoration:underline
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: green;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:gray;
 }
