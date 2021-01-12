@@ -7,16 +7,18 @@
 body {
   background-color: #c1faff;
   color: DarkSlateBlue;
+  font-size: 24px;
+  line-height: 1;
   font-family: 'Roboto', sans-serif;
   /* font-weight: bold; */
 }
 
 h1 {
   /* color: darkblue; */
-  /* font-family: Helvetica, Arial;
-  font-size: 36px;
-  font-style: italic; */
-  text-align: justify;
+  font-family: Helvetica, Arial;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
 }
 
 h2 {
@@ -54,8 +56,8 @@ multiple lines
 
 p {
   /* color: black; */
-  font-size: 24px;
-  line-height: 1;
+  /* font-size: 24px;
+  line-height: 1; */
   text-align: justify;
   text-decoration: none;
 }
