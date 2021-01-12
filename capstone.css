@@ -6,7 +6,7 @@
 
 body {
   background-color: #c1faff;
-  color: navy;
+  color: black;
   font-size: 24px;
   line-height: 1;
   font-weight: bold;
@@ -24,10 +24,10 @@ h1 {
 
 h2 {
   color: darkblue;
-  /* font-family: Courier;
-  font-weight: 250;
-  font-style: oblique; */
-  text-align: justify;
+  font-family: Helvetica, Arial;
+  /* font-weight: 250; */
+  font-style: italic;
+  text-align: left;
 }
 
 h3 {
