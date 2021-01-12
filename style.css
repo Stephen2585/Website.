@@ -4,8 +4,10 @@
   font-size: 100%;
   font-family: Helvetica, Arial;
   /* border: 1px solid red; */
-  /* margin: 4; */
+  margin: 0;
   line-height: 1;
+  box-sizing: content-box;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -54,13 +56,26 @@ section p {
   background-color: white;
   margin: 30px;
   padding: 30px;
+  width: 80%;
+  height: 80%;
 }
+
+
 
 /*
 Comment blocks
 can span
 multiple lines
 */
+
+/* img {
+  width: 300px;
+  height: 200px; keeps them all the same size*/
+}
+
+img{
+  width: 30%;
+}
 
 p {
   color: black;
@@ -113,4 +128,14 @@ a:hover {
 
 a:visited {
   color:gray;
+}
+
+a img {
+  width: 100px;
+  height: 100px;
+}
+.title {
+  color: blue;
+  font-size: 36px;
+  text-decoration: underline;
 }
