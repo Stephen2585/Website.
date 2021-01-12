@@ -41,13 +41,19 @@ h3 {
 header {
   color: green;
   /* background-color: lightblue; */
+  border-bottom: 5px solid gray;
+  margin-bottom: 20px;
 }
 
 
 section p {
   color: red;
-  font-size: 16pt;
+  font-size: 12pt;
   /* background-color: yellow; */
+  border: 1px solid blue;
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
 }
 
 /*
@@ -62,12 +68,13 @@ p {
   line-height: 1;
   text-align: justify;
   text-decoration: none;
-  border: solid red;
+  border: 10px dotted red;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 30px;
   margin-right: 40px;
   padding: 30px;
+  /* solid, dotted or dashed */
 }
 
 h1,h2,h3 {
@@ -76,6 +83,7 @@ h1,h2,h3 {
 
 ul, ol {
   margin: 15px, 0;
+  border: 10px dashed red;
 }
 
 Header, section, footer{
