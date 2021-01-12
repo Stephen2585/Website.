@@ -4,6 +4,8 @@
   font-size: 100%;
   font-family: Helvetica, Arial;
   /* border: 1px solid red; */
+  /* margin: 4; */
+  line-height: 1;
 }
 
 body {
@@ -11,6 +13,7 @@ body {
   color: DarkSlateBlue;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  margin: 100px;
 }
 
 h1 {
@@ -59,6 +62,10 @@ p {
   text-align: justify;
   text-decoration: none;
   border: solid red;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 40px;
 }
 
 footer {
