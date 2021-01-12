@@ -9,6 +9,7 @@ body {
   color: DarkSlateBlue;
   font-size: 24px;
   line-height: 1;
+  font-weight: bold;
   font-family: 'Roboto', sans-serif;
   /* font-weight: bold; */
 }
