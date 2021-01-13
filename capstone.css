@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color: darkblue;
+  color: mediumblue;
   font-family: Helvetica, Arial;
   /* font-weight: 250; */
   font-style: italic;
@@ -33,12 +33,12 @@ h2 {
 }
 
 h3 {
-  /* color: darkblue; */
-  /* font-size: 18px;
-  font-weight: bold;
-  font-style: normal; */
-  text-align: justify;
-  text-decoration:underline;
+  /* color: mediumblue;
+  font-family: Helvetica, Arial;
+  font-weight: 250;
+  font-style: italic;
+  text-align: left;
+  text-decoration:underline; */
 }
 
 header {
@@ -51,9 +51,9 @@ section {
   /* font-size: 24pt; */
   background-color: white;
   text-align: justify;
-  border: 10px solid black;
-  margin: 20px;
-  padding: 30px;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 20px;
 }
 
 /*
@@ -68,9 +68,9 @@ p {
   line-height: 1; */
   text-align: justify;
   text-decoration: none;
-  border: 10px solid #40e0e0;
-  margin: 20px;
-  padding: 30px;
+  border: 5px solid #40e0e0;
+  margin: 10px;
+  padding: 20px;
 }
 
 /* h1,h2,h3 {
@@ -108,6 +108,11 @@ a:hover {
 
 a:visited {
   color:gray;
+}
+
+img {
+  /* margin: 5px solid black; */
+  border: 5px solid blue;
 }
 
 /* a img {
