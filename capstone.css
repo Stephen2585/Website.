@@ -38,7 +38,7 @@ h3 {
   font-family: Helvetica, Arial;
   /* font-weight: 250; */
   font-style: italic;
-  text-align: center;
+  text-align: left;
   text-decoration:underline;
   font-size: 40px;
 }
@@ -151,5 +151,26 @@ nav ul li a {
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: mediumblue;
-  color: black;
+  color: white;
 }
+
+/* #ordered-list {
+  color: pink;
+} */
+
+/* .box {
+  border: 1px solid black;
+  padding: 30px;
+} */
+      /* Need these codes for my list on website */
+/* .box p {
+  font-size: 24px;
+  max-width: 100px;
+} */
+
+.container {
+  max-width: 800px;
+  /* border: 5px dashed black; */
+  /* padding: 2px #40e0e0; */
+  /* max-height: 100px; */
+  margin: 0 auto;
