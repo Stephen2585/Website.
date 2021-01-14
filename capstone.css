@@ -30,6 +30,7 @@ h2 {
   /* font-weight: 250; */
   font-style: italic;
   text-align: justify;
+  padding: 10px;
   text-decoration:underline;
 }
 
@@ -40,6 +41,7 @@ h3 {
   font-style: italic;
   text-align: left;
   text-decoration:underline;
+  padding: 10px;
   font-size: 40px;
 }
 
